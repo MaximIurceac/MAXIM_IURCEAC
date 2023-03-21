@@ -2,7 +2,7 @@ package org.example.homework_nr_2;
 
 public class HomeWork2 {
     public static void main(String[] args){
-       int months = 3;
+       int months = 4;
 
        switch (months){
            case 1:
@@ -45,7 +45,17 @@ public class HomeWork2 {
            default:
                System.out.println("Такого месяца нет");
 
+       }
+       for(int counter = 100; counter <=1000; counter ++) {
+           if(counter % 5 != 0)
+               continue;
+           System.out.println(counter);
+
+
 
        }
     }
+
+
+
 }
