@@ -1,18 +1,20 @@
 package org.example.homework_nr_3;
 
 public class Circle {
+    double radius;
 
-    public static float calculateArea(int radius, float pi){
-        float area;
+    public Circle(double radius){
+        this.radius = radius;
 
-        area = (radius * radius) * pi;
-        return area;
+  }
+    public double calculateArea() {
+        return 3.14 * (radius * radius);
     }
-
-    public static void main(String[] args){
-        float finished;
-        finished = calculateArea(3, 3.14F);
-        System.out.println(finished);
-
+    public static void main (String[] args) {
+        Circle circle = new Circle(5.0);
+        double area = circle.calculateArea();
+        System.out.println(area);
     }
 }
+
+
