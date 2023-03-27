@@ -21,9 +21,9 @@ class TemperatureConverter {
     public static void main(String[] args) {
         TemperatureConverter celsius = new TemperatureConverter(0, 123);
         TemperatureConverter fahrenheit = new TemperatureConverter(232.78, 0);
-        double celdegree = celsius.toCelsius();
-        double fahdegree = fahrenheit.toFahrenheit();
-        System.out.println("В цельсиях: " + celdegree + " В форенгейтах: " + fahdegree);
+            double celdegree = celsius.toCelsius();
+            double fahdegree = fahrenheit.toFahrenheit();
+                System.out.println("В цельсиях: " + celdegree + " В форенгейтах: " + fahdegree);
     }
 
 }
