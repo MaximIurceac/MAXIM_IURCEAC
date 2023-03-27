@@ -22,7 +22,6 @@ class TemperatureConverter{
 
     double celsius;
     double fahrenheit;
-    double degree;
 
     TemperatureConverter(double celsius, double fahrenheit){
     this.celsius = celsius;
