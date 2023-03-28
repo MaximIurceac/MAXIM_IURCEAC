@@ -59,7 +59,7 @@ public class HomeWork2 {
            System.out.println(counter);
        }
 
-        double sum = 0.0;
+        double sum = 0;
         for (double n = 1; n <= 97; n += 2) {
             sum += n / (n + 2);
         }
