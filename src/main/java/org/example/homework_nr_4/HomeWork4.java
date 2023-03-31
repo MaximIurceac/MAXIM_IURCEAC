@@ -1,5 +1,7 @@
 package org.example.homework_nr_4;
 
+import java.util.Arrays;
+
 public class HomeWork4 {
 
     public static void main(String[] args) {
@@ -46,10 +48,17 @@ public class HomeWork4 {
         System.out.println("Количество четных чисел: " + even);
         System.out.println("Количество нечетных чисел: " + notEven);
 
-    String[] names = new String[]{"Alex", "Nikita", "Pavel", "Victor", "Danil"};
+    String[] names ={"Alex", "Nikita", "Pavel", "Victor", "Danil"};
     String[] cnames = new String[names.length];
+        System.arraycopy(names, 0, cnames, 0, names.length);
+        System.out.println(Arrays.toString(cnames));
+
+
+
 
 
 
     }
+
 }
+
