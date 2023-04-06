@@ -59,7 +59,7 @@ public class HomeWork5 {
         String strFloat = "2354.56f";
         float floatNum = Float.parseFloat(strFloat);
 
-        System.out.println(doubleNum);
+         System.out.println(doubleNum);
      }
 
 }
