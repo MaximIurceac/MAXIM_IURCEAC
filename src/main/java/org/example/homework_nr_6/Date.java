@@ -12,22 +12,30 @@ public class Date {
     }
 
     public int getDay() {
+
         return day;
     }
 
     public void setDay(int day) {
         if( day > 0 && day <=31){
         this.day = day;
+        }else{
+            System.out.println("Invalid day: " + day);
+            this.day = 0;
         }
     }
 
     public int getMonth() {
+
         return month;
     }
 
     public void setMonth(int month) {
         if( month> 0 && month <= 12){
         this.month = month;
+        }else{
+            System.out.println("Invalid month: " + month);
+            this.month = 0;
         }
     }
 
@@ -43,8 +51,14 @@ public class Date {
     }
 
     public static void main(String[] args){
-       Date date = new Date(11, 11,2011);
+        Date date = new Date(11, 11,2011);
         date.displayDate();
+
+        date.setDay(37);
+        date.setMonth(73);
+        date.setYear(2024);
+        date.displayDate();
+
     }
 
 }
