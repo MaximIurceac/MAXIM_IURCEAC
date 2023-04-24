@@ -4,6 +4,8 @@ public interface Animal {
     void eat();
     void run();
     default void drink(){
+        System.out.println("Animal is drinking...");
+
     };
 
     static void sit(){
