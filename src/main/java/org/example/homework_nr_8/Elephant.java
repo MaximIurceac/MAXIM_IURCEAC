@@ -30,7 +30,7 @@ public class Elephant extends Erbivor implements Animal {
 
     @Override
     public void sleep() {
-        System.out.println("Erbivor is sleeping");
+        System.out.println("Elephant is sleeping");
     }
 }
 
