@@ -10,6 +10,7 @@ public class Triple <T extends Comparable<T>, V extends Animal & Serializable, K
     private V vValue;
     private K kValue;
 
+
     public Triple(T tValue, V vValue, K kValue) {
         this.tValue = tValue;
         this.vValue = vValue;
