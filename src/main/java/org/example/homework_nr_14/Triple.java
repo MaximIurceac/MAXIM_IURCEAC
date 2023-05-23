@@ -2,7 +2,7 @@ package org.example.homework_nr_14;
 
 import java.io.Serializable;
 
-public class Triple <T extends Comparable<T>, V extends Animal & Serializable, K extends Number>{
+public class Triple <T extends Comparable<T>, V extends Animal & Serializable, K>{
 
     private T tValue;
     private V vValue;
