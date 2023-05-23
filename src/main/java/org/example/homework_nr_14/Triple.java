@@ -1,8 +1,10 @@
 package org.example.homework_nr_14;
 
+import com.sun.org.apache.xpath.internal.operations.Number;
+
 import java.io.Serializable;
 
-public class Triple <T extends Comparable<T>, V extends Animal & Serializable, K>{
+public class Triple <T extends Comparable<T>, V extends Animal & Serializable, K extends Number>{
 
     private T tValue;
     private V vValue;
